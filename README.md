@@ -1,1 +1,270 @@
-# almeralandia
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Almeralandia Modpack</title>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2795937245284499"
+       crossorigin="anonymous"></script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .faq-item button {
+      transition: all 0.3s ease;
+    }
+    .faq-item button:hover {
+      color: #FFD700;
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.4s ease;
+    }
+    .faq-answer.show {
+      max-height: 500px;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    a.underline-hover:hover {
+      text-decoration: underline;
+      color: #FFD700;
+    }
+    @media(max-width: 900px) {
+      .ad-left, .ad-right {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body class="min-h-screen relative flex flex-col justify-center items-center font-sans">
+
+  <!-- ANUNCIO IZQUIERDO -->
+  <div class="ad-left" style="position: fixed; left: 10px; top: 50%; transform: translateY(-50%); z-index: 9999;">
+    <ins class="adsbygoogle"
+        style="display:block;width:160px;height:600px"
+        data-ad-client="ca-pub-2795937245284499"
+        data-ad-slot="1234567890"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- ANUNCIO DERECHO -->
+  <div class="ad-right" style="position: fixed; right: 10px; top: 50%; transform: translateY(-50%); z-index: 9999;">
+    <ins class="adsbygoogle"
+        style="display:block;width:160px;height:600px"
+        data-ad-client="ca-pub-2795937245284499"
+        data-ad-slot="1234567891"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <!-- Fondo -->
+  <div class="absolute inset-0 bg-[url('https://i.pinimg.com/736x/61/da/39/61da398468d98b910891ea3ac0678bda.jpg')] bg-cover bg-center"></div>
+  <div class="absolute inset-0 bg-gradient-to-b from-black/70 to-black/50"></div>
+
+  <!-- Contenido principal -->
+  <div class="relative z-10 max-w-6xl text-center p-12 bg-black/30 rounded-3xl shadow-2xl space-y-8">
+
+    <h1 class="text-6xl font-extrabold text-yellow-400 mb-4">🌍 Bienvenido a Almeralandia</h1>
+    <p class="text-xl text-white/90 mb-8">Tu modpack NeoForge 1.21.1 — conéctate fácilmente mediante Radmin VPN.</p>
+
+    <!-- Paso 1 -->
+    <div class="step p-6 bg-gradient-to-r from-green-900/50 to-green-800/50 rounded-xl shadow-md hover:scale-105 transition-all">
+      <h2 class="text-3xl font-bold text-green-400 mb-2">1️⃣ Descarga los actualizadores</h2>
+      <p class="ml-4 mb-2 text-white/80">Dentro encontrarás un archivo <b>.bat</b> con dos opciones:</p>
+      <ul class="ml-8 list-disc text-white/80">
+        <li><b>1:</b> TLauncher (No Premium)</li>
+        <li><b>2:</b> CurseForge (Premium)</li>
+      </ul>
+      <p class="ml-4 mt-2 text-white/80">Si eres nuevo, ejecuta <b>todosLosMods_almeralandia_launcher.bat</b>.  
+      Si ya tienes el modpack, usa <b>Last_updater.bat</b> para actualizarlo.</p>
+    </div>
+
+    <!-- Paso 2 -->
+    <div class="step p-6 bg-gradient-to-r from-blue-900/50 to-blue-800/50 rounded-xl shadow-md hover:scale-105 transition-all">
+      <h2 class="text-3xl font-bold text-blue-400 mb-2">2️⃣ Ejecuta el actualizador</h2>
+      <p class="ml-4 text-white/80">Abre el archivo .bat y selecciona tu launcher:</p>
+      <ul class="ml-8 list-disc text-white/80">
+        <li><b>1:</b> TLauncher</li>
+        <li><b>2:</b> CurseForge</li>
+      </ul>
+      <p class="ml-4 mt-2 text-white/80">El actualizador instalará o actualizará automáticamente los mods, shaders y configuraciones sin borrar tus mundos.</p>
+    </div>
+
+    <!-- Paso 3 -->
+    <div class="step p-6 bg-gradient-to-r from-purple-900/50 to-purple-800/50 rounded-xl shadow-md hover:scale-105 transition-all">
+      <h2 class="text-3xl font-bold text-purple-400 mb-2">3️⃣ Conéctate al servidor mediante Radmin VPN</h2>
+
+      <p class="ml-4 text-white/80 mb-2">El servidor ahora funciona mediante <b>Radmin VPN</b>.  
+      Sigue estos pasos para conectarte correctamente:</p>
+
+      <ul class="ml-8 list-disc text-white/80 text-left inline-block">
+        <li>🔗 Descarga Radmin VPN desde su web oficial:  
+        <a href="https://www.radmin-vpn.com/es/" target="_blank" class="text-yellow-400 underline">https://www.radmin-vpn.com/es/</a></li>
+        <li>📦 Instálalo y ejecútalo.</li>
+        <li>🧠 En Radmin, ve a <b>Red → Unirse a una red existente</b>.</li>
+        <li>📜 <b>Nombre de red:</b> <code>almeralandia</code></li>
+        <li>🔒 <b>Contraseña:</b> <code>almeralandia</code></li>
+        <li>✅ Una vez conectado, abre Minecraft con el modpack y entra con esta IP:</li>
+      </ul>
+
+      <p class="text-2xl text-yellow-400 font-bold mt-3">🖥️ IP: <code>26.206.36.236</code></p>
+      <p class="text-sm text-gray-300 mt-1">⚠️ Asegúrate de que Radmin VPN esté abierto antes de iniciar Minecraft.</p>
+    </div>
+
+    <!-- Modos de acceso -->
+    <div class="step p-6 bg-gradient-to-r from-pink-900/50 to-pink-800/50 rounded-xl shadow-md hover:scale-105 transition-all">
+      <h2 class="text-3xl font-bold text-pink-400 mb-2">👥 Modos de acceso</h2>
+      <ul class="ml-6 list-disc text-white/80">
+        <li><b>Premium:</b> inicia sesión con tu cuenta de Microsoft.</li>
+        <li><b>No Premium:</b> selecciona “Modo Offline” e ingresa tu nombre.</li>
+      </ul>
+    </div>
+
+    <!-- Actualizaciones -->
+    <div class="step p-6 bg-gradient-to-r from-orange-900/50 to-orange-800/50 rounded-xl shadow-md hover:scale-105 transition-all">
+      <h2 class="text-3xl font-bold text-orange-400 mb-2">🧩 Actualizaciones automáticas</h2>
+      <p class="ml-4 text-white/80">Cada vez que se añadan nuevos mods o cambios, se descargarán automáticamente al ejecutar el actualizador.</p>
+    </div>
+
+    <!-- Bug Reports -->
+    <div class="mt-10">
+      <h2 class="text-4xl font-bold text-red-400 mb-2">🐛 Reportar un bug</h2>
+      <p class="text-sm text-gray-300 mb-4">¡Cada bug que reportes será recompensado dentro del servidor!</p>
+
+      <div id="auth-section" class="mb-4 space-y-4">
+        <input type="text" id="register-username" placeholder="Nombre de usuario" class="p-3 rounded-xl w-full max-w-md">
+        <input type="password" id="register-password" placeholder="Contraseña" class="p-3 rounded-xl w-full max-w-md">
+        <button id="register-btn" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-bold">Registrarse</button>
+
+        <hr class="border-gray-600">
+
+        <input type="text" id="login-username" placeholder="Nombre de usuario" class="p-3 rounded-xl w-full max-w-md">
+        <input type="password" id="login-password" placeholder="Contraseña" class="p-3 rounded-xl w-full max-w-md">
+        <button id="login-btn" class="px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-2xl font-bold">Iniciar sesión</button>
+      </div>
+
+      <div id="bug-form" class="hidden flex flex-col items-center space-y-4">
+        <input type="text" id="bug-title" placeholder="Título del bug" class="p-3 rounded-xl w-full max-w-md">
+        <textarea id="bug-desc" placeholder="Descripción del bug" class="p-3 rounded-xl w-full max-w-md h-32"></textarea>
+        <button id="submit-bug" class="px-6 py-3 bg-red-500 hover:bg-red-600 text-white rounded-2xl font-bold">Enviar bug</button>
+      </div>
+
+      <div id="bug-list" class="mt-6 space-y-3 text-left max-w-3xl w-full"></div>
+    </div>
+
+    <!-- Botones de descarga -->
+    <div class="mt-12 flex flex-wrap justify-center gap-6">
+      <a href="https://drive.google.com/drive/folders/1cF-Y6Xblh9_m7g43tQcXq0F9K14LTbO1?usp=sharing"
+         target="_blank"
+         class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-8 rounded-2xl text-lg shadow-lg transform hover:scale-105 transition-all">
+         🔽 Descargar actualizadores
+      </a>
+      <a href="https://www.radmin-vpn.com/es/"
+         target="_blank"
+         class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-2xl text-lg shadow-lg transform hover:scale-105 transition-all">
+         🌐 Descargar Radmin VPN
+      </a>
+      <a href="https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.213/neoforge-21.1.213-installer.jar"
+         target="_blank"
+         class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-8 rounded-2xl text-lg shadow-lg transform hover:scale-105 transition-all">
+         🛠 Descargar NeoForge
+      </a>
+      <a href="https://whoisjr.github.io/almeralandiaHelp/tienda"
+         target="_blank"
+         class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-2xl text-lg shadow-lg transform hover:scale-105 transition-all">
+         🛒 Ir a la tienda
+      </a>
+    </div>
+
+    <p class="mt-10 text-gray-400 text-sm">© 2025 Almeralandia — Servidor NeoForge 1.21.1</p>
+    <p class="text-gray-400 text-sm">💬 Creado por whoiisjr ❤️ | 🧪 Probado por Alx20</p>
+  </div>
+
+  <!-- Anuncio responsive recomendado por Google -->
+  <div class="w-full mt-10 flex justify-center">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2795937245284499"
+         data-ad-slot="9876543210"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <script>
+    function toggleFAQ(button) {
+      const answer = button.nextElementSibling;
+      answer.classList.toggle("show");
+    }
+
+    const registerBtn = document.getElementById('register-btn');
+    const loginBtn = document.getElementById('login-btn');
+    const authSection = document.getElementById('auth-section');
+    const bugForm = document.getElementById('bug-form');
+    const bugList = document.getElementById('bug-list');
+
+    function renderBugs() {
+      const bugs = JSON.parse(localStorage.getItem('bugs') || '[]');
+      bugList.innerHTML = '';
+      bugs.forEach(b => {
+        const div = document.createElement('div');
+        div.className = "p-3 bg-gray-900/60 rounded-xl text-gray-100";
+        div.innerHTML = `<b>${b.user}</b> (${new Date(b.date).toLocaleString()}):<br><b>${b.title}</b><br>${b.desc}`;
+        bugList.appendChild(div);
+      });
+    }
+
+    registerBtn.addEventListener('click', () => {
+      const username = document.getElementById('register-username').value;
+      const password = document.getElementById('register-password').value;
+      if(username && password) {
+        if(localStorage.getItem('user_' + username)) {
+          alert('¡El nombre de usuario ya existe!');
+        } else {
+          localStorage.setItem('user_' + username, password);
+          alert('✅ Registro completado. Ahora puedes iniciar sesión.');
+        }
+      } else alert('Por favor completa ambos campos.');
+    });
+
+    loginBtn.addEventListener('click', () => {
+      const username = document.getElementById('login-username').value;
+      const password = document.getElementById('login-password').value;
+      const storedPassword = localStorage.getItem('user_' + username);
+      if(storedPassword && storedPassword === password) {
+        alert('¡Inicio de sesión correcto!');
+        authSection.style.display = 'none';
+        bugForm.classList.remove('hidden');
+        localStorage.setItem('currentUser', username);
+      } else alert('Nombre de usuario o contraseña incorrectos.');
+    });
+
+    document.getElementById('submit-bug').addEventListener('click', () => {
+      const title = document.getElementById('bug-title').value;
+      const desc = document.getElementById('bug-desc').value;
+      const user = localStorage.getItem('currentUser');
+      if(title && desc && user) {
+        const bugs = JSON.parse(localStorage.getItem('bugs') || '[]');
+        bugs.push({user, title, desc, date: new Date().toISOString()});
+        localStorage.setItem('bugs', JSON.stringify(bugs));
+        alert('🐛 ¡Bug enviado! Gracias por tu ayuda.');
+        document.getElementById('bug-title').value = '';
+        document.getElementById('bug-desc').value = '';
+        renderBugs();
+      } else alert('Por favor completa todos los campos.');
+    });
+
+    renderBugs();
+  </script>
+
+</body>
+</html>
